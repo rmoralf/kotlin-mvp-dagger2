@@ -26,7 +26,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-// Define versions in a single place
 ext {
     // Sdk and tools
     minSdkVersion = 21
@@ -35,5 +34,6 @@ ext {
     buildToolsVersion = '28.0.3'
 
     // App dependencies
+    daggerVersion = '2.17'
     junitVersion = '4.12'
 }
