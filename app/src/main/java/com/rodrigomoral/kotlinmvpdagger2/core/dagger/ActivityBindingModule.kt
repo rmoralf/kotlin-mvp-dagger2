@@ -1,5 +1,6 @@
 package com.rodrigomoral.kotlinmvpdagger2.core.dagger
 
+import com.rodrigomoral.kotlinmvpdagger2.fragment.FragmentModule
 import com.rodrigomoral.kotlinmvpdagger2.main.MainActivity
 import com.rodrigomoral.kotlinmvpdagger2.main.MainModule
 import dagger.Module
@@ -16,7 +17,7 @@ abstract class ActivityBindingModule {
      * by this application instance (singleton scoped objects).
      */
     @ActivityScoped
-    @ContributesAndroidInjector(modules = [MainModule::class])
+    @ContributesAndroidInjector(modules = [MainModule::class, FragmentModule::class])
     internal abstract fun mainActivityInjector(): MainActivity
 
 }
