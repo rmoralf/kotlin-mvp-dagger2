@@ -36,5 +36,4 @@ ext {
 
     // App dependencies
     junitVersion = '4.12'
-
 }
