@@ -10,7 +10,7 @@ import dagger.android.support.AndroidSupportInjectionModule
 import javax.inject.Singleton
 
 /**
- * Created by Liquid Squad at Accenture Digital on 9/10/18.
+ * Created by Rodrigo Moral Fiel on 9/10/18.
  */
 @Singleton
 @Component(modules = [ApplicationModule::class, ActivityBindingModule::class, AndroidSupportInjectionModule::class])

@@ -4,7 +4,7 @@ import com.rodrigomoral.kotlinmvpdagger2.core.base.BaseIPresenter
 import com.rodrigomoral.kotlinmvpdagger2.core.base.BaseIView
 
 /**
- * Created by Liquid Squad at Accenture Digital on 9/10/18.
+ * Created by Rodrigo Moral Fiel on 9/10/18.
  */
 interface MainContract {
 

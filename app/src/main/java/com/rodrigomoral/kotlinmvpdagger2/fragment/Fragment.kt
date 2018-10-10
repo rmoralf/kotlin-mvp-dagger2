@@ -10,7 +10,7 @@ import com.rodrigomoral.kotlinmvpdagger2.core.dagger.ActivityScoped
 import javax.inject.Inject
 
 /**
- * Created by Liquid Squad at Accenture Digital on 9/10/18.
+ * Created by Rodrigo Moral Fiel on 9/10/18.
  */
 @ActivityScoped
 class Fragment @Inject constructor() : BaseFragment(), FragmentContract.View {

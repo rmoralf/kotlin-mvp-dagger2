@@ -4,7 +4,7 @@ import com.rodrigomoral.kotlinmvpdagger2.core.base.BasePresenter
 import javax.inject.Inject
 
 /**
- * Created by Liquid Squad at Accenture Digital on 9/10/18.
+ * Created by Rodrigo Moral Fiel on 9/10/18.
  */
 class FragmentPresenter @Inject constructor() : BasePresenter(), FragmentContract.Presenter {
 
