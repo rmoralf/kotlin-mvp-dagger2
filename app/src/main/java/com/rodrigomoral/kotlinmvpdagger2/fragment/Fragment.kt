@@ -24,7 +24,7 @@ class Fragment @Inject constructor() : BaseFragment(), FragmentContract.View {
 
     override fun onResume() {
         super.onResume()
-        mPresenter.setView(this)
+        mPresenter.bindView(this)
         mPresenter.testFragmentPresenterFunction()
     }
 

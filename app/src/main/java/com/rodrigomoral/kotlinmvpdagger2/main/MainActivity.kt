@@ -25,7 +25,7 @@ class MainActivity : BaseActivity(), MainContract.View {
 
     public override fun onResume() {
         super.onResume()
-        mPresenter.setView(this)
+        mPresenter.bindView(this)
         mPresenter.testMainPresenterFunction()
     }
 

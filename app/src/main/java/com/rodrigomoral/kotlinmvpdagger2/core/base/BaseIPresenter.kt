@@ -7,7 +7,7 @@ interface BaseIPresenter<T> {
      *
      * @param view the view associated with this presenter
      */
-    fun setView(view: T)
+    fun bindView(view: T)
 
     /**
      * Drops the reference to the view.

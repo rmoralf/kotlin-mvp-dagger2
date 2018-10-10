@@ -18,7 +18,7 @@ class MainPresenter @Inject constructor() : BasePresenter(), MainContract.Presen
         mView?.testMainViewFunction()
     }
 
-    override fun setView(view: MainContract.View) {
+    override fun bindView(view: MainContract.View) {
         mView = view
     }
 

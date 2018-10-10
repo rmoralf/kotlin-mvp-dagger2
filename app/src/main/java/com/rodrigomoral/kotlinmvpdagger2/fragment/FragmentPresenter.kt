@@ -16,7 +16,7 @@ class FragmentPresenter @Inject constructor() : BasePresenter(), FragmentContrac
         mView?.testFragmentViewFunction()
     }
 
-    override fun setView(view: FragmentContract.View) {
+    override fun bindView(view: FragmentContract.View) {
         mView = view
     }
 
